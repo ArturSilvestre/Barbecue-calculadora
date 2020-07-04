@@ -1,0 +1,32 @@
+:root {
+  --color_background: #763cb7;
+  --color_background_middle: #5E2E92;
+  --color_text: #fff;
+  --color_background_button: #73DD3F;
+}
+
+body {
+  background-color: var(--color_background);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color_text);
+  background-color: var(--color_background_middle);
+}
+
+.title {
+  font-weight: 400;
+  text-align: left;
+  font-family: sans-serif;
+  letter-spacing: 0px;
+  color: #F7F0F0;
+  opacity: 1;
+}
+
+.subtitle {
+  margin-left: -83px;
+}
